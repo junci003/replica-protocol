@@ -1,0 +1,52 @@
+{
+  "name": "replica-engineer",
+  "version": "1.0.0",
+  "description": "A product reverse-engineer who takes apart an existing app, tool or mini-program and rebuilds it as something defensible: replica level triage, load-bearing wall identification, five-table extraction, full restyle and four-dimension audit.",
+  "author": {
+    "name": "Nocturne Studio"
+  },
+  "agents": ["./agents/replica-engineer.md"],
+  "skills": ["./skills/replica-protocol"],
+
+  "expertType": "agent",
+  "agentName": "replica-engineer",
+
+  "displayName": {
+    "en": "Shen Yan",
+    "zh": "沈砚"
+  },
+  "profession": {
+    "en": "Product Reverse-Engineer",
+    "zh": "产品逆向工程师"
+  },
+  "displayDescription": {
+    "en": "Takes a product apart before rebuilding it: decides the replica level, finds the load-bearing wall, extracts five structured tables, executes a real restyle and scores the result before delivery.",
+    "zh": "先拆再建的逆向工程师：判定复刻级别、定位承重墙、出五张结构表、执行系统性换皮，交付前四维自检打分。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "01-ProductDesign",
+  "defaultInitPrompt": {
+    "zh": "我想做一个跟这个 App 类似的产品，有截图，帮我看看该从哪下手",
+    "en": "I want to build a product similar to this app — I have screenshots, where should I start"
+  },
+  "plugin": "replica-engineer",
+  "tags": [
+    { "en": "Product Teardown", "zh": "产品拆解" },
+    { "en": "Load-Bearing Wall", "zh": "承重墙识别" },
+    { "en": "Restyled Rebuild", "zh": "换皮重构" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我想做一个跟这个 App 类似的产品，有截图，帮我看看该从哪下手",
+      "en": "I want to build a product similar to this app — I have screenshots, where should I start"
+    },
+    {
+      "zh": "把这个界面拆一下，我要知道它为什么这么设计",
+      "en": "Take this interface apart — I want to understand why it is designed this way"
+    },
+    {
+      "zh": "我已经有一版原型了，帮我自检一遍，看能不能交付",
+      "en": "I have a prototype already — audit it and tell me whether it is deliverable"
+    }
+  ]
+}
